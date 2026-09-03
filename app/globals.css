@@ -1,26 +1,116 @@
 @import "tailwindcss";
 
+/* ---------- Light theme (default tokens) ---------- */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --surface-0: #f4f6fb;
+  --surface-1: #e7ebf4;
+  --surface-2: #dce2ee;
+
+  --ink-primary: #0b1424;
+  --ink-secondary: #5b6472;
+
+  --glass-bg-1: rgba(10, 20, 45, 0.05);
+  --glass-bg-2: rgba(10, 20, 45, 0.015);
+  --glass-border: rgba(10, 20, 45, 0.09);
+  --glass-shadow: rgba(20, 30, 60, 0.1);
+
+  --glass-light-bg: rgba(10, 20, 45, 0.035);
+  --glass-light-border: rgba(10, 20, 45, 0.09);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* ---------- Dark theme ---------- */
+.dark {
+  --surface-0: #050b17;
+  --surface-1: #0b1f3d;
+  --surface-2: #102a52;
+
+  --ink-primary: #f5f7fa;
+  --ink-secondary: #b9c3d4;
+
+  --glass-bg-1: rgba(255, 255, 255, 0.1);
+  --glass-bg-2: rgba(255, 255, 255, 0.03);
+  --glass-border: rgba(255, 255, 255, 0.12);
+  --glass-shadow: rgba(0, 0, 0, 0.35);
+
+  --glass-light-bg: rgba(255, 255, 255, 0.06);
+  --glass-light-border: rgba(255, 255, 255, 0.1);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@theme {
+  /* Brand — stays consistent across both themes */
+  --color-brand-blue: #0a4e99;
+  --color-brand-blue-light: #2952d6;
+  --color-brand-violet: #7c5cfc;
+  --color-brand-gold: #eaa523;
+
+  /* Feature chip accents */
+  --color-accent-tracking: #6d7ef0;
+  --color-accent-network: #3fa9d6;
+  --color-accent-secure: #eaa523;
+  --color-accent-support: #c2469e;
+
+  /* Surfaces — swap automatically with theme */
+  --color-navy-950: var(--surface-0);
+  --color-navy-900: var(--surface-1);
+  --color-navy-800: var(--surface-2);
+
+  /* Text — swap automatically with theme */
+  --color-ink-100: var(--ink-primary);
+  --color-ink-400: var(--ink-secondary);
+
+  --font-sans: "Inter", "Poppins", ui-sans-serif, system-ui, sans-serif;
+
+  --radius-glass: 1.25rem;
+}
+
+@layer base {
+  body {
+    @apply bg-navy-950 text-ink-100 font-sans antialiased transition-colors duration-200;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+  .glass-panel {
+    background: linear-gradient(135deg, var(--glass-bg-1), var(--glass-bg-2));
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-glass);
+    box-shadow: 0 8px 32px var(--glass-shadow);
+  }
+  .hover-lift {
+    transition:
+      transform 0.3s cubic-bezier(0.22, 1, 0.36, 1),
+      box-shadow 0.3s;
+  }
+  .hover-lift:hover {
+    transform: translateY(-4px);
+  }
+
+  .glass-panel-light {
+    background: var(--glass-light-bg);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid var(--glass-light-border);
+    border-radius: var(--radius-glass);
+  }
+
+  .brand-gradient {
+    background-image: linear-gradient(
+      90deg,
+      var(--color-brand-blue-light),
+      var(--color-brand-violet)
+    );
+  }
+
+  .brand-gradient-text {
+    background-image: linear-gradient(
+      90deg,
+      var(--color-brand-blue-light),
+      var(--color-brand-violet)
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
 }

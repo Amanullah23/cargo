@@ -1,0 +1,283 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "offices": "Offices",
+    "about": "About Us",
+    "contact": "Contact",
+    "getQuote": "Get a Quote"
+  },
+  "footer": {
+    "tagline": "Fast, reliable and secure cargo shipping services connecting Afghanistan to the world.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "copyright": "All rights reserved."
+  },
+  "hero": {
+    "badge": "GLOBAL CARGO SOLUTIONS",
+    "headlineLine1": "Delivering Cargo,",
+    "headlineLine2Pre": "Connecting",
+    "headlineLine2Highlight": "Worlds",
+    "paragraph": "Fast, reliable and secure cargo shipping services to any destination around the globe.",
+    "ctaQuote": "Get a Quote",
+    "ctaServices": "Our Services",
+    "trackingTitle": "Track Your Shipment",
+    "trackingPlaceholder": "Enter your tracking number",
+    "trackingButton": "Track Now",
+    "trackingExample": "e.g. CGO123456789",
+    "features": {
+      "tracking": {
+        "title": "Real Time Tracking",
+        "desc": "Track your shipment in real time"
+      },
+      "network": {
+        "title": "Global Network",
+        "desc": "Worldwide shipping coverage"
+      },
+      "secure": {
+        "title": "Secure Delivery",
+        "desc": "Your cargo is safe with us"
+      },
+      "support": { "title": "24/7 Support", "desc": "Always here to help you" }
+    }
+  },
+  "stats": {
+    "countries": { "label": "Countries", "sub": "Worldwide" },
+    "shipments": { "label": "Shipments", "sub": "Delivered" },
+    "onTime": { "label": "On Time", "sub": "Delivery" },
+    "support": { "label": "Customer", "sub": "Support" }
+  },
+  "transportModes": {
+    "heading": "Multiple Transportation Methods",
+    "subheading": "Whatever your cargo needs, we move it the right way — by air, sea, road, or rail.",
+    "learnMore": "Learn more",
+    "modes": {
+      "air": {
+        "title": "Air Cargo",
+        "badge": "Fastest",
+        "desc": "Time-critical shipments moved through our global airline network with priority handling.",
+        "features": [
+          "1–3 day delivery worldwide",
+          "Ideal for high-value & urgent cargo"
+        ]
+      },
+      "sea": {
+        "title": "Sea Cargo",
+        "badge": "Best for bulk",
+        "desc": "Full and shared container shipping across major sea routes, built for large-volume freight.",
+        "features": [
+          "FCL & LCL container options",
+          "Most cost-effective per kilo"
+        ]
+      },
+      "road": {
+        "title": "Road Freight",
+        "badge": "Most flexible",
+        "desc": "Door-to-door regional trucking with GPS-tracked fleets across Afghanistan and neighboring countries.",
+        "features": [
+          "Door-to-door regional delivery",
+          "Flexible pickup scheduling"
+        ]
+      },
+      "rail": {
+        "title": "Rail Freight",
+        "badge": "Eco-friendly",
+        "desc": "Efficient bulk transport for heavy cargo over long distances, with a lower carbon footprint.",
+        "features": [
+          "Built for heavy, bulk shipments",
+          "Lower emissions than road transport"
+        ]
+      }
+    }
+  },
+  "tradeRoutes": {
+    "heading": "Our Trade Routes",
+    "subheading": "Connecting Afghanistan to every neighboring country and onward to Europe, India, and the Gulf — by air, rail, and road.",
+    "hubName": "Afghanistan",
+    "hubSub": "Kabul Hub",
+    "routes": {
+      "centralAsia": "Central Asia",
+      "china": "China",
+      "pakistan": "Pakistan",
+      "india": "India",
+      "gulf": "UAE / Gulf",
+      "middleEast": "Middle East",
+      "iran": "Iran",
+      "europe": "Europe"
+    }
+  },
+  "services": {
+    "heading": "Our Services",
+    "subheading": "Comprehensive shipping solutions for your business needs.",
+    "items": {
+      "air": {
+        "title": "Air Freight",
+        "desc": "Fast and secure air cargo with global route coverage."
+      },
+      "sea": {
+        "title": "Sea Freight",
+        "desc": "Cost-effective ocean shipping for large-volume cargo."
+      },
+      "land": {
+        "title": "Land Transport",
+        "desc": "Reliable road freight with real-time tracking."
+      },
+      "warehousing": {
+        "title": "Warehousing",
+        "desc": "Secure storage facilities with advanced inventory management."
+      },
+      "customs": {
+        "title": "Customs Clearance",
+        "desc": "Fast customs processing handled by experienced specialists."
+      },
+      "insurance": {
+        "title": "Cargo Insurance",
+        "desc": "Comprehensive coverage to protect your shipments in transit."
+      }
+    }
+  },
+  "partners": {
+    "trustText": "Trusted by thousands of businesses around the world"
+  },
+  "cta": {
+    "heading": "Ready to ship with Ariana Cargo?",
+    "desc": "Get a fast, no-obligation quote for your air, sea, or land shipment — our team responds within one business day.",
+    "quoteButton": "Get a Quote",
+    "callButton": "Call Us"
+  },
+  "contactPage": {
+    "heading": "Contact Us",
+    "desc": "We'd love to hear from you. Send us a message and our team will respond within one business day.",
+    "form": {
+      "fullName": "Full Name",
+      "fullNamePlaceholder": "Your name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+93 7XX XXX XXX",
+      "company": "Company Name",
+      "companyPlaceholder": "Optional",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your shipment...",
+      "submit": "Send Message"
+    },
+    "phoneCard": "Phone Number",
+    "emailCard": "Email",
+    "officeCard": "Head Office"
+  },
+  "officesPage": {
+    "heading": "Offices & Branches",
+    "desc": "Visit us at our head office or one of our representative branches across Kabul.",
+    "hq": "HQ",
+    "offices": {
+      "hq": {
+        "name": "Head Office — Kabul",
+        "address": "Shahr-e-Naw, Kabul, Afghanistan"
+      },
+      "karteNaw": {
+        "name": "Branch Office — Karte Naw",
+        "address": "Karte Naw, 3rd Street, Kabul, Afghanistan"
+      },
+      "shahrNaw": {
+        "name": "Branch Office — Shahr-e-Naw",
+        "address": "Shahr-e-Naw, Kabul, Afghanistan"
+      },
+      "dehAfghanan": {
+        "name": "Branch Office — Deh Afghanan",
+        "address": "Deh Afghanan, Kabul, Afghanistan"
+      }
+    }
+  },
+  "aboutPage": {
+    "heading": "About Ariana Cargo",
+    "desc": "A leading logistics company delivering reliable air, sea, and land freight solutions from Afghanistan to the world.",
+    "storyHeading": "Our Story",
+    "storyP1": "Ariana Cargo was founded to give Afghan businesses and individuals a dependable bridge to global trade. From our head office in Kabul, we've grown a network of branch offices and international partnerships that make shipping abroad — and receiving cargo from abroad — simple, transparent, and on time.",
+    "storyP2": "Whether it's a single package or a full container load, our team manages every step of the journey: pickup, customs clearance, transit, and final delivery — with real tracking visibility along the way.",
+    "years": "15+ Years",
+    "yearsSub": "Of logistics experience",
+    "location": "Kabul, Afghanistan",
+    "locationSub": "Head office & operations base",
+    "countries": "120+ Countries",
+    "countriesSub": "Served through our network",
+    "whyChooseUs": "Why Choose Us",
+    "values": {
+      "network": {
+        "title": "Global Network",
+        "desc": "Presence in over 120 countries, built on trusted and experienced partnerships worldwide."
+      },
+      "team": {
+        "title": "Expert Team",
+        "desc": "Experienced logistics specialists with deep knowledge of Afghan and international freight."
+      },
+      "tech": {
+        "title": "Advanced Technology",
+        "desc": "Modern tracking and shipment-management systems for full visibility on every order."
+      },
+      "support": {
+        "title": "24/7 Support",
+        "desc": "A dedicated support team ready to help with your shipments at any time."
+      }
+    }
+  },
+  "servicesPage": {
+    "heading": "Our Services",
+    "desc": "Comprehensive shipping and logistics solutions covering every stage of your cargo's journey — from pickup to final delivery.",
+    "requestQuote": "Request a quote",
+    "items": {
+      "air": {
+        "title": "Air Freight",
+        "desc": "Fast, secure air cargo for time-sensitive shipments with global route coverage.",
+        "features": [
+          "Express and standard air freight options",
+          "Live tracking from pickup to delivery",
+          "Customs documentation handled for you"
+        ]
+      },
+      "sea": {
+        "title": "Sea Freight",
+        "desc": "Cost-effective ocean shipping for large-volume and bulk cargo worldwide.",
+        "features": [
+          "Full container load (FCL) and shared (LCL)",
+          "Major shipping-line partnerships",
+          "Port-to-door delivery available"
+        ]
+      },
+      "land": {
+        "title": "Land Transport",
+        "desc": "Reliable regional road freight with real-time visibility on every route.",
+        "features": [
+          "Cross-border and domestic trucking",
+          "GPS-tracked fleet",
+          "Flexible pickup scheduling"
+        ]
+      },
+      "warehousing": {
+        "title": "Warehousing",
+        "desc": "Secure storage facilities with advanced inventory management systems.",
+        "features": [
+          "Short and long-term storage",
+          "Real-time inventory reporting",
+          "Pick, pack, and consolidation services"
+        ]
+      },
+      "customs": {
+        "title": "Customs Clearance",
+        "desc": "Fast, accurate customs processing handled by experienced specialists.",
+        "features": [
+          "Import and export documentation",
+          "Tariff and duty guidance",
+          "Direct coordination with customs authorities"
+        ]
+      },
+      "insurance": {
+        "title": "Cargo Insurance",
+        "desc": "Comprehensive coverage that protects your shipments in transit.",
+        "features": [
+          "Coverage for air, sea, and land shipments",
+          "Fast claims support",
+          "Flexible coverage levels by cargo value"
+        ]
+      }
+    }
+  }
+}
