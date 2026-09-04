@@ -4,9 +4,9 @@ import { Reveal, StaggerGrid, StaggerItem } from "@/components/motion/Reveal";
 
 const OFFICES = [
   { key: "hq", phone: "+93 (0) 7XX XXX XX1", isHq: true },
-  { key: "karteNaw", phone: "+93 (0) 7XX XXX XX2" },
-  { key: "shahrNaw", phone: "+93 (0) 7XX XXX XX3" },
-  { key: "dehAfghanan", phone: "+93 (0) 7XX XXX XX4" },
+  { key: "karteNaw", phone: "+93 (0) 7XX XXX XX2", isHq: false },
+  { key: "shahrNaw", phone: "+93 (0) 7XX XXX XX3", isHq: false },
+  { key: "dehAfghanan", phone: "+93 (0) 7XX XXX XX4", isHq: false },
 ] as const;
 
 export default function OfficesSection() {
