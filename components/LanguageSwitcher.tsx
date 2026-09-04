@@ -46,7 +46,7 @@ export default function LanguageSwitcher() {
       </button>
 
       {open && (
-        <div className="glass-panel absolute end-0 top-full z-50 mt-2 w-36 overflow-hidden p-1">
+        <div className="glass-panel-solid absolute start-0 top-full z-50 mt-2 w-36 overflow-hidden p-1">
           {LOCALES.map((l) => (
             <button
               key={l.code}
