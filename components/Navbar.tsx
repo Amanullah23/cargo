@@ -27,7 +27,7 @@ export default function Navbar() {
       transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
       className="sticky top-0 z-50 w-full"
     >
-      <div className="mx-auto max-w-7xl px-4 py-3 sm:px-6 lg:px-8">
+      <div className="relative mx-auto max-w-7xl px-4 py-3 sm:px-6 lg:px-8">
         <div className="glass-panel flex items-center justify-between px-4 py-3 sm:px-6">
           <Link href="/" className="flex items-center gap-2.5">
             <span className="brand-gradient flex h-9 w-9 items-center justify-center rounded-xl">
@@ -85,11 +85,11 @@ export default function Navbar() {
           {open && (
             <motion.div
               key="mobile-menu"
-              initial={{ opacity: 0, height: 0 }}
-              animate={{ opacity: 1, height: "auto" }}
-              exit={{ opacity: 0, height: 0 }}
-              transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
-              className="glass-panel mt-2 flex flex-col gap-1 overflow-hidden p-4 lg:hidden"
+              initial={{ opacity: 0, y: -8 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -8 }}
+              transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
+              className="glass-panel absolute inset-x-4 top-full z-40 mt-2 flex flex-col gap-1 p-4 sm:inset-x-6 lg:hidden"
             >
               {NAV_LINKS.map((link) => (
                 <Link
