@@ -25,7 +25,7 @@ export default function Navbar() {
       initial={{ y: -24, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-      className="sticky top-0 z-50 w-full"
+      className="sticky top-0 z-50 w-full border-b border-[color:var(--glass-border)] bg-navy-950/55 backdrop-blur-xl"
     >
       <div className="relative mx-auto max-w-7xl px-4 py-3 sm:px-6 lg:px-8">
         <div className="glass-panel flex items-center justify-between px-4 py-3 sm:px-6">
@@ -89,7 +89,7 @@ export default function Navbar() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -8 }}
               transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
-              className="glass-panel absolute inset-x-4 top-full z-40 mt-2 flex flex-col gap-1 p-4 sm:inset-x-6 lg:hidden"
+              className="glass-panel-solid absolute inset-x-4 top-full z-40 mt-2 flex flex-col gap-1 p-4 sm:inset-x-6 lg:hidden"
             >
               {NAV_LINKS.map((link) => (
                 <Link

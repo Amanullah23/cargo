@@ -78,14 +78,6 @@
     border-radius: var(--radius-glass);
     box-shadow: 0 8px 32px var(--glass-shadow);
   }
-  .hover-lift {
-    transition:
-      transform 0.3s cubic-bezier(0.22, 1, 0.36, 1),
-      box-shadow 0.3s;
-  }
-  .hover-lift:hover {
-    transform: translateY(-4px);
-  }
 
   .glass-panel-light {
     background: var(--glass-light-bg);
@@ -93,6 +85,15 @@
     -webkit-backdrop-filter: blur(14px);
     border: 1px solid var(--glass-light-border);
     border-radius: var(--radius-glass);
+  }
+
+  .glass-panel-solid {
+    background: color-mix(in srgb, var(--surface-1) 94%, transparent);
+    backdrop-filter: blur(28px);
+    -webkit-backdrop-filter: blur(28px);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-glass);
+    box-shadow: 0 12px 40px var(--glass-shadow);
   }
 
   .brand-gradient {
@@ -112,5 +113,14 @@
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+  }
+
+  .hover-lift {
+    transition:
+      transform 0.3s cubic-bezier(0.22, 1, 0.36, 1),
+      box-shadow 0.3s;
+  }
+  .hover-lift:hover {
+    transform: translateY(-4px);
   }
 }
