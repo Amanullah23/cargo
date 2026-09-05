@@ -10,6 +10,7 @@ import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 export default function Navbar() {
   const t = useTranslations("nav");
+  const tBrand = useTranslations("brand");
   const [open, setOpen] = useState(false);
 
   const NAV_LINKS = [
@@ -37,7 +38,8 @@ export default function Navbar() {
               />
             </span>
             <span className="text-lg font-semibold tracking-tight text-ink-100">
-              Ariana <span className="text-brand-gold">Cargo</span>
+              {tBrand("ariana")}{" "}
+              <span className="text-brand-gold">{tBrand("cargo")}</span>
             </span>
           </Link>
 

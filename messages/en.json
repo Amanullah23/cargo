@@ -1,4 +1,5 @@
 {
+  "brand": { "ariana": "Ariana", "cargo": "Cargo" },
   "nav": {
     "home": "Home",
     "services": "Services",
@@ -134,6 +135,19 @@
         "title": "Cargo Insurance",
         "desc": "Comprehensive coverage to protect your shipments in transit."
       }
+    }
+  },
+  "exportProducts": {
+    "heading": "Our Export Products",
+    "subheading": "Best Afghan products with world-class quality",
+    "categoryOf": "Category {current} of {total}",
+    "auto": "Auto",
+    "items": {
+      "womens": "Women's Clothing",
+      "mens": "Men's Clothing",
+      "freshFruits": "Fresh Fruits",
+      "driedFruits": "Dried Fruits & Nuts",
+      "handicrafts": "Handicrafts"
     }
   },
   "partners": {

@@ -1,4 +1,5 @@
 {
+  "brand": { "ariana": "آریانا", "cargo": "کارگو" },
   "nav": {
     "home": "خانه",
     "services": "خدمات",
@@ -137,6 +138,19 @@
         "title": "بیمه محموله",
         "desc": "پوشش جامع برای محافظت از کالای شما در مسیر حمل."
       }
+    }
+  },
+  "exportProducts": {
+    "heading": "محصولات صادراتی ما",
+    "subheading": "بهترین محصولات افغانی با کیفیت جهانی",
+    "categoryOf": "دسته {current} از {total}",
+    "auto": "خودکار",
+    "items": {
+      "womens": "لباس زنانه",
+      "mens": "لباس مردانه",
+      "freshFruits": "میوه‌های تازه",
+      "driedFruits": "خشکبار",
+      "handicrafts": "صنایع دستی"
     }
   },
   "partners": {

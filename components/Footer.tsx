@@ -23,6 +23,7 @@ const OFFICE_PHONES = ["+93 (0) 7XX XXX XX1", "+93 (0) 7XX XXX XX2"];
 export default function Footer() {
   const t = useTranslations("footer");
   const tNav = useTranslations("nav");
+  const tBrand = useTranslations("brand");
 
   const QUICK_LINKS = [
     { label: tNav("home"), href: "/" },
@@ -45,7 +46,8 @@ export default function Footer() {
                 />
               </span>
               <span className="text-lg font-semibold tracking-tight text-ink-100">
-                Ariana <span className="text-brand-gold">Cargo</span>
+                {tBrand("ariana")}{" "}
+                <span className="text-brand-gold">{tBrand("cargo")}</span>
               </span>
             </Link>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-ink-400">
@@ -119,7 +121,8 @@ export default function Footer() {
 
         <div className="mt-4 flex flex-col items-center justify-between gap-2 px-2 text-xs text-ink-400 sm:flex-row">
           <p>
-            © {new Date().getFullYear()} Ariana Cargo. {t("copyright")}
+            © {new Date().getFullYear()} {tBrand("ariana")} {tBrand("cargo")}.{" "}
+            {t("copyright")}
           </p>
           <p>Kabul, Afghanistan</p>
         </div>
